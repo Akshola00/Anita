@@ -16,13 +16,13 @@ function App() {
 
   return (
     <div
-      className="bg-cover bg-center h-screen w-full p-12"
+      className="bg-cover bg-center h-screen w-full p-12 flex items-center justify-center"
       style={{ backgroundImage: `url(${imgmy})` }}
     >
-      {/* Conditionally render the modal based on the modal state */}
+      
       {modal !== 0 && <Modal which={modal} onClose={closeModal} />}
 
-      <div className="backdrop-blur-sm bg-white/30 p-4 rounded-xl flex">
+      <div className="backdrop-blur-sm bg-white/30 p-4 rounded-xl  flex">
         <div className="flex-1">
           <p className="font-[roboto] text-[78px] text-base-100 text-center">
             INSPIRE <br /> AND <br /> MOTIVATE WITH ANITA
@@ -37,14 +37,14 @@ function App() {
             onClick={() => openModal(1)}
             className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-base-100 text-base-100 font-bold rounded-full"
           >
-            QUICK INSPIRATION
+            DAILY DOSE
           </button>
 
           <button
             onClick={() => openModal(2)}
             className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-base-100 text-base-100 font-bold rounded-full"
           >
-            DAILY DOSE
+            ABOUT US
           </button>
 
           <button
