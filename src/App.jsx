@@ -35,34 +35,32 @@ function App() {
         <div className="flex-1 pl-6 grid grid-rows-3 grid-cols-2 gap-4 items-center">
           <button
             onClick={() => openModal(1)}
-            className="p-2 bg-gray-500 w-[18rem] font-[karla] border-2 border-black text-black font-bold rounded-full"
+            className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-base-100 text-base-100 font-bold rounded-full"
           >
             QUICK INSPIRATION
           </button>
 
           <button
             onClick={() => openModal(2)}
-            className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-black text-black font-bold rounded-full"
+            className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-base-100 text-base-100 font-bold rounded-full"
           >
             DAILY DOSE
           </button>
 
           <button
             onClick={() => openModal(3)}
-            className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-black text-black font-bold rounded-full col-span-2 justify-self-center"
+            className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-base-100 text-base-100 font-bold rounded-full col-span-2 justify-self-center"
           >
             ABOUT INSPIRATION BY ANITA
           </button>
 
           <button
             onClick={() => openModal(4)}
-            className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-black text-black font-bold rounded-full"
+            className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-base-100 text-base-100 font-bold rounded-full"
           >
             CONTACT US
           </button>
-          <button className="p-2 bg--500 w-[18rem] font-[karla] border-2 border-black text-black font-bold rounded-full">
-            ANOTHER BUTTON
-          </button>
+          <div></div>
         </div>
       </div>
     </div>
